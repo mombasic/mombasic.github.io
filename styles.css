@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #94AEE0;
+  }
+
+  div{
+    border-radius: 22px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .glavnidiv{
+    justify-content: center;
+
+    border-radius: 22px;
+  }
+
+  .glavnidivo{
+    position: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    border-radius: 22px;
+  }
+
+  .glavnidivzaindividualnerecenzije{
+    position: flex;
+    flex-direction: column;
+
+    background-color: #7136D8;
+    color: #C5CBF9;
+
+    border: 6px solid;
+
+    border-radius: 22px;
+
+    align-items: center;
+  }
+
+  .glavnidivzaindividualnerecenzije img{
+    align-items: center;
+  }
+
+  #cure{
+    background-image: url("curebackdrop1.webp");
+    background-size: cover;
+    transition: 0.5s;
+  }
+
+  #cure:hover{
+    transform: translateY(-6px);
+  }
+
+  #phantom{
+    background-image: url("phantomthreadbackdrop2.webp");
+    background-size: cover;
+    transition: 0.5s;
+  }
+
+  #phantom:hover{
+    transform: translateY(-6px);
+  }
+
+  #synecdoche{
+    background-image: url("synecdochebackdrop1.webp");
+    background-size: cover;
+    transition: 0.5s;
+  }
+
+  #synecdoche:hover{
+    transform: translateY(-6px);
+  }
+
+  #thedouble{
+    background-image: url("thedoublebackdrop1.webp");
+    background-size: cover;
+    transition: 0.5s;
+  }
+
+  #thedouble:hover{
+    transform: translateY(-6px);
+  }
+
+  .omiljeni{
+    min-height: 50vh;
+
+    max-width: 40vw;
+
+    margin: 10px;   
+    padding: 20px;
+    
+    position: flex;
+    flex-direction: row;
+
+    background-color: #7136D8;
+    color: #C5CBF9;
+
+    border: 6px solid;
+
+    border-radius: 22px;
+
+  }
+
+  .omiljeni img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 22px;
+  }
+
+  .divicnekimali{
+    position: flex;
+    flex-direction: column;
+
+    background-color: #7136D8;
+    color: #C5CBF9;
+
+    padding: 10px;
+    
+    border: 6px solid;
+
+    border-radius: 22px;
+
+    align-items: center;
+  }
+
+  .divjosmanji{
+    position: flex;
+
+    background-color: #341CED;
+    color: #FCC4EA;
+
+    border: 6px solid;
+
+    border-radius: 22px;
+
+    text-align: center;
+  }
+  
+  
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+
+    align-items: center;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+
+    position: flex;
+    flex-direction: row;
+    border-radius: 22px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .carddiv1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .carddiv{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footersadrzaj {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .footer{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 22px;
+    background-color: transparent;
+    justify-content: center;
+  }
+
+  .article {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 22px;
+    background-color: #C5CBF9;
+
+    justify-content: center;
+
+  }
+
+  .pomjeraj{
+    background-color: deepskyblue;
+
+    margin-inline: auto;
+    padding: 0.4em 0.2em;
+
+    width: fit-content;
+    
+    border: 1px solid;
+    border-radius: 16px;
+    
+    transition: ease 0.5s;
+  }
+
+  .pomjeraj a{
+    color: #111111;
+  }
+
+  .pomjeraj:hover{
+    transform: translateY(-6px);
+  }
+
+  #posteranimacija{
+    transition: 0.5s;
+  }
+
+  #posteranimacija:hover{
+    transform: translateY(-6px);
+  }
+
+  .gumbicakdiv{
+    background-color: #293997;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .gumbicak{
+    display:inline-block;
+    transition: ease 0.5s;
+  }
+
+  .gumbicak:hover{
+    transform: scale3d(3, 0.8, 1);
+  }
+
+  .omiljenifilmoviveliki {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 22px;
+    background-color: #C5CBF9;
+
+    text-align: center;
+  }
+
+  .omiljenifilmovi{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 22px;
+    background-color: transparent;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+    div{
+        flex-wrap: wrap;
+    }
+
+    h5 img{
+        width: 16px;
+    }
+
+    .carddiv1 img{
+        width: 50vw;
+    }
+
+    ul{
+        font-size: smaller;
+    }
+  }
+
+  ul {
+    border-radius: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    position: sticky;
+    top: 0;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+  }
+  
+  ul li a:hover {
+    border-radius: 22px;
+    background-color: #111111;
+  }
+
+  h5 img{
+    transform: translateY(3px);
+  }
+
+  
