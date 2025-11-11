@@ -336,6 +336,19 @@
     ul{
         font-size: smaller;
     }
+
+    .divicnekimali img{
+      max-width: 100%;
+    }
+
+    .header img{
+      max-width: 100%;
+    }
+
+    .omiljeni{
+      min-width: 100%;
+      max-width: 100%;
+    }
   }
 
   ul {
