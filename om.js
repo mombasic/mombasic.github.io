@@ -23,7 +23,7 @@ let request = new XMLHttpRequest();
         tagovi += '<div class="carddiv">';
         tagovi += '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
         tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
-        tagovi +=  '<p>' + niz.filmovi[i].recenzija + '</p>';
+        tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
         tagovi += '<div class="pomjeraj">';
         tagovi += '<a href="review.html">Citajte Review</a>';
         tagovi += '</div>';
