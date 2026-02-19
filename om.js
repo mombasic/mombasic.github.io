@@ -17,6 +17,7 @@ let request = new XMLHttpRequest();
         tagovi += '<div class="carddiv1">';
         imeSlike = niz.filmovi[i].naziv.replaceAll(" ", "");
         imeSlike = imeSlike.toLowerCase();
+        console.log(imeSlike);
         tagovi += '<img src="images\\' + imeSlike + '.webp"' + ' height="200px">';
         tagovi += '</div>';
         tagovi += '<div class="carddiv">';
