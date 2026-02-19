@@ -16,7 +16,7 @@ let request = new XMLHttpRequest();
         tagovi += '<div class="article">';
         tagovi += '<div class="carddiv1">';
         imeSlike = niz.filmovi[i].naziv.replaceAll(" ", "");
-        tagovi += '<img src="images\\' + imeSlike + '.webp"' + ' height="200px">';
+        tagovi += '<img src="images\\' + imeSlike.toLowerCase() + '.webp"' + ' height="200px">';
         tagovi += '</div>';
         tagovi += '<div class="carddiv">';
         tagovi += '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
