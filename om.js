@@ -36,5 +36,6 @@ function dodajFilmove()
                 '</div>'
         document.getElementsByClassName("glavnidiv").innerHTML = 
             '</div>'
+        console.log("kurac" + i);
     }
 }
