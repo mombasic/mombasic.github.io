@@ -8,33 +8,32 @@ let request = new XMLHttpRequest();
     console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
+        gdiv[0].innerHTML += '<div class="article">';
         gdiv[0].innerHTML += 
-        '<div class="article">'
+                    '<div class="carddiv1">';
         gdiv[0].innerHTML += 
-                    '<div class="carddiv1">'
+                    '<img src=images\\' + niz.filmovi[i].naziv.replaceAll(" ", ""); +  '.webp" height="200px">';
         gdiv[0].innerHTML += 
-                    '<img src=images\\' + niz.filmovi[i].naziv.replaceAll(" ", ""); +  '.webp" height="200px">'
+                    '</div>';
         gdiv[0].innerHTML += 
-                    '</div>'
+                    '<div class="carddiv">';
         gdiv[0].innerHTML += 
-                    '<div class="carddiv">'
+                    '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
         gdiv[0].innerHTML += 
-                    '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>'
+                    '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
+        gdiv[0].innerHTML +=  
+                    '<p>' + niz.filmovi[i].recenzija + '</p>';
         gdiv[0].innerHTML += 
-                    '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>'
+                    '<div class="pomjeraj">';
         gdiv[0].innerHTML += 
-                    '<p>' + niz.filmovi[i].recenzija + '</p>'
+                    '<a href="review.html">Citajte Review</a>';
         gdiv[0].innerHTML += 
-                    '<div class="pomjeraj">'
+                    '</div>';
         gdiv[0].innerHTML += 
-                    '<a href="review.html">Citajte Review</a>'
+                    '</div>';
         gdiv[0].innerHTML += 
-                    '</div>'
+                '</div>';
         gdiv[0].innerHTML += 
-                    '</div>'
-        gdiv[0].innerHTML += 
-                '</div>'
-        gdiv[0].innerHTML += 
-            '</div>'
+            '</div>';
         console.log("kurac" + i);
     }
