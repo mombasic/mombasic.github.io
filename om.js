@@ -5,35 +5,29 @@ let request = new XMLHttpRequest();
 
     let gdiv = document.getElementsByClassName("glavnidiv");
 
+    let tagovi = "";
+
     console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
-        gdiv[0].innerHTML += '<div class="article">';
-        gdiv[0].innerHTML += 
-                    '<div class="carddiv1">';
-        gdiv[0].innerHTML += 
-                    '<img src=images\\' + niz.filmovi[i].naziv.replaceAll(" ", ""); +  '.webp" height="200px">';
-        gdiv[0].innerHTML += 
-                    '</div>';
-        gdiv[0].innerHTML += 
-                    '<div class="carddiv">';
-        gdiv[0].innerHTML += 
-                    '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
-        gdiv[0].innerHTML += 
-                    '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
-        gdiv[0].innerHTML +=  
-                    '<p>' + niz.filmovi[i].recenzija + '</p>';
-        gdiv[0].innerHTML += 
-                    '<div class="pomjeraj">';
-        gdiv[0].innerHTML += 
-                    '<a href="review.html">Citajte Review</a>';
-        gdiv[0].innerHTML += 
-                    '</div>';
-        gdiv[0].innerHTML += 
-                    '</div>';
-        gdiv[0].innerHTML += 
-                '</div>';
-        gdiv[0].innerHTML += 
-            '</div>';
+        tagovi = "";
+
+        tagovi += '<div class="article">';
+        tagovi += '<div class="carddiv1">';
+        tagovi += '<img src="images\\' + niz.filmovi[i].naziv.replaceAll(" ", ""); +  '.webp" height="200px">';
+        tagovi += '</div>';
+        tagovi += '<div class="carddiv">';
+        tagovi += '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
+        tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
+        tagovi +=  '<p>' + niz.filmovi[i].recenzija + '</p>';
+        tagovi += '<div class="pomjeraj">';
+        tagovi += '<a href="review.html">Citajte Review</a>';
+        tagovi += '</div>';
+        tagovi += '</div>';
+        tagovi += '</div>';
+        tagovi += '</div>';
+
+        gdiv[0].innerHTML += tagovi;
+
         console.log("kurac" + i);
     }
