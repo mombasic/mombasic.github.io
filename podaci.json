@@ -1,0 +1,48 @@
+{
+  "filmovi": [
+    {
+        "naziv": "After hours",
+        "godinaFilma": 1985,
+        "recenzija": "now this is exactly the kind of wacky dark  comedy i needed in my life right now. but this is really unlike any other scorsese movie i’ve seen, so off the wall.<br>
+
+                  at first i was thinking it was a little weird, but man the intertwining storyline swept me away. i felt myself slowly losing my mind with paul through the night.<br>
+                  
+                  hopelessly funny, and every line delivered is gold.<br>
+                  
+                  and the growing cast of characters all eventually wanting to kill him is just hilarious",
+        "datumRecenzije": "Aug 05, 2025",
+        "plot": "Paul meets Marcy at a coffee shop after work, and gets her phone number. He calls her, she asks him to come over, and things take a turn for the bizarre. Paul spends the rest of the night trying to get home, dealing with angry cabbies, dead women (and their bartender husbands), clumsy catburglars, quirky sculptresses, unstable waitresses, condescending bouncers, and irate mobs led by ice cream truck drivers along the way.",
+        "rating": 5,
+        "like": true
+    },
+    {
+        "naziv": "Antiviral",
+        "godinaFilma": 2012,
+        "recenzija": "very high concept, not that well executed;
+                  surprising lack of gore",
+        "datumRecenzije": "Nov 9, 2025",
+        "plot": "Syd March is an employee at a clinic that sells injections of live viruses harvested from sick celebrities to obsessed fans. Biological communion - for a price. Syd also supplies illegal samples of these viruses to piracy groups, smuggling them from the clinic in his own body. When he becomes infected with the disease that kills super sensation Hannah Geist, Syd becomes a target for collectors and rabid fans. He must unravel the mystery surrounding her death before he suffers the same fate.",
+        "rating": 3,
+        "like": false
+    },
+    {
+        "naziv": "John Wick",
+        "godinaFilma": 2014,
+        "recenzija": "3 stars for the 3 minutes of willem dafoe screentime",
+        "datumRecenzije": "Oct 27, 2025",
+        "plot": "With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.",
+        "rating": 3,
+        "like": false
+    },
+    {
+        "naziv": "One battle after another",
+        "godinaFilma": 2025,
+        "recenzija": "Grips you from the first minute and refuses to let go. Whether you're struck with fear by the ever-relevant depictions of militarized violence, or you're laughing at the hundredth dadfailure Leo moment,<br> you're in for an absolutely unforgettable time at the movies. I seriously feel bad for every other film that comes out this year.",
+        "datumRecenzije": "Oct 02, 2025",
+        "plot": "Bob (Leonardo DiCaprio) is a washed-up revolutionary who lives in a state of stoned paranoia, surviving off-grid with his spirited and self-reliant daughter, Willa (Chase Infiniti). When his evil nemesis resurfaces and Willa goes missing, the former radical scrambles to find her as both father and daughter battle the consequences of their pasts.",
+        "rating": 5,
+        "like": true
+    }
+    
+  ]
+}
