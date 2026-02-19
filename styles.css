@@ -17,7 +17,7 @@
     text-decoration: none;
   }
 
-  #glavnidiv{
+  .glavnidiv{
     justify-content: center;
 
     border-radius: 22px;
