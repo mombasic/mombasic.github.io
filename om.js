@@ -1,11 +1,9 @@
-dodajFilmove();
-
-function dodajFilmove()
-{
-    let request = new XMLHttpRequest();
+let request = new XMLHttpRequest();
     request.open("GET", "podaci.json", false);
     request.send(null);
     let niz = JSON.parse(request.responseText);
+
+    console.log("proslo1");
 
     for (let i in niz.filmovi) {
         document.getElementsByClassName("glavnidiv").innerHTML = 
@@ -38,4 +36,3 @@ function dodajFilmove()
             '</div>'
         console.log("kurac" + i);
     }
-}
