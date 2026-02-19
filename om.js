@@ -3,7 +3,7 @@ let request = new XMLHttpRequest();
     request.send(null);
     let niz = JSON.parse(request.responseText);
 
-    console.log("proslo1");
+    console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
         document.getElementsByClassName("glavnidiv").innerHTML = 
