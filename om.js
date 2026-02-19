@@ -13,7 +13,7 @@ let request = new XMLHttpRequest();
         gdiv[0].innerHTML += 
                     '<div class="carddiv1">'
         gdiv[0].innerHTML += 
-                    '<img src=' + niz.filmovi[i].naziv +  '.webp" height="200px">'
+                    '<img src=images\\' + niz.filmovi[i].naziv.replaceAll(" ", ""); +  '.webp" height="200px">'
         gdiv[0].innerHTML += 
                     '</div>'
         gdiv[0].innerHTML += 
