@@ -85,5 +85,18 @@ else if (nizDatuma.length == 1)
 
 else 
     {
+        tagovi = "";
         
+        tagovi += '<div class="leftcolumn">'
+        tagovi += 'Nemate recenzija!'
+        tagovi += 'Pritisnite gumbičak da biste dodali svoju prvu recenziju!'
+
+        tagovi += '<div class="gumbicak">'
+        tagovi += '<a href="recenzije.html">'
+        tagovi += '<img src="element_images/gumbic.png" width="200vw">'
+        tagovi += '</div>'
+        tagovi += '</a>'
+        tagovi += '</div>'
+
+        gdiv[0].innerHTML += tagovi;
     }
