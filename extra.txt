@@ -1,0 +1,142 @@
+ubaciti sve zvjezdice,
+
+<div class="article">
+                <div class="carddiv1">
+                  <img src="images/antiviral.webp" height="200px">
+                </div>
+                <div class="carddiv">
+                  <h5><img src="element_images/time.svg" width="16px" height="16px">Nov 9, 2025</h5>
+                  <h2>ANTIVIRAL  (2012)</h2>
+                  <p>Syd March is an employee at a clinic that sells injections of live viruses harvested from sick celebrities to obsessed fans. Biological communion - for a price. Syd also supplies illegal samples of these viruses to piracy groups, smuggling them from the clinic in his own body. When he becomes infected with the disease that kills super sensation Hannah Geist, Syd becomes a target for collectors and rabid fans. He must unravel the mystery surrounding her death before he suffers the same fate.</p>
+                  <div class="pomjeraj">
+                  <a href="user_reviews/review-antiviral.html">Citajte Review</a>
+                </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="johnwick.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Oct 27, 2025</h5>
+              <h2>JOHN WICK  (2014)</h2>
+              <p>With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.</p>
+            <div class="pomjeraj">
+              <a href="review-john_wick.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="thesurfer.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Oct 15, 2025</h5>
+              <h2>THE SURFER  (2024)</h2>
+              <p>A man returns to the idyllic beach of his childhood to surf with his son. But his desire to hit the waves is thwarted by a group of locals whose mantra is "don't live here, don't surf here." Humiliated and angry, the man is drawn into a conflict that keeps rising in concert with the punishing heat of the summer and pushes him to his breaking point.</p>
+            <div class="pomjeraj">
+              <a href="review-the_surfer.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="poorthings.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Oct 14, 2025</h5>
+              <h2>POOR THINGS  (2023)</h2>
+              <p>From filmmaker Yorgos Lanthimos and producer Emma Stone comes the incredible tale and fantastical evolution of Bella Baxter (Stone), a young woman crafted by the brilliant and unorthodox scientist Dr. Godwin Baxter (Willem Dafoe). Under Baxter's protection, Bella is eager to learn. Hungry for the worldliness she is lacking, Bella runs off with Duncan Wedderburn (Mark Ruffalo), a slick and debauched lawyer, on a whirlwind adventure across the continents. Free from the prejudices of her times, Bella experiences trials and a desire for equality.</p>
+            <div class="pomjeraj">
+              <a href="review-poor_things.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="twbb.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Oct 13, 2025</h5>
+              <h2>THERE WILL BE BLOOD  (2007)</h2>
+              <p>The intersecting life stories of Daniel Plainview and Eli Sunday in early twentieth century California is presented. Miner turn oilman Daniel Plainview is a driven man who will do whatever it takes to achieve his goals. He works hard but he also takes advantage of those around him at their expense if need be. His business partner is his son H.W., who in reality he "acquired" when H.W.'s biological single father, who worked on one of Daniel's rigs, got killed in a workplace accident. Daniel is deeply protective of H.W. if only for what H.W. brings to the partnership. Eli Sunday is one in a pair of twins, whose family farm Daniel purchases for the major oil deposit located on it. Eli, the local preacher and a self-proclaimed faith healer, wants the money from the sale of the property to finance his own church. The lives of the two competitive men often clash as Daniel pumps oil off the property and tries to acquire all the surrounding land at bargain prices to be able to build a pipeline to the coast, and as Eli tries to build his own religious empire.</p>
+            <div class="pomjeraj">
+              <a href="review-twbb.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="obaa.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Oct 02, 2025</h5>
+              <h2>ONE BATTLE AFTER ANOTHER  (2025)</h2>
+              <p>Bob (Leonardo DiCaprio) is a washed-up revolutionary who lives in a state of stoned paranoia, surviving off-grid with his spirited and self-reliant daughter, Willa (Chase Infiniti). When his evil nemesis resurfaces and Willa goes missing, the former radical scrambles to find her as both father and daughter battle the consequences of their pasts.</p>
+            <div class="pomjeraj">
+              <a href="review-obaa.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="thefather.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Sep 16, 2025</h5>
+              <h2>THE FATHER  (2025)</h2>
+              <p>Having scared off his latest caregiver, Anthony, an ailing octogenarian Londoner gradually succumbing to dementia, feels abandoned when his concerned daughter, Anne, tells him she's moving to Paris. Confused and upset, debilitated by his rapid mental decline and warped perspective, Anthony loses his grip on reality as he struggles to navigate the opaque landscape of the present and past. As a result, fading memories and glimpses of lucidity trigger sudden mood swings, distorting Anthony's surroundings, loved ones, and even time. But why has his younger daughter stopped visiting? And who are the strangers that burst in on Anthony?</p>
+            <div class="pomjeraj">
+              <a href="review-the_father.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="thevanishing.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Sep 06, 2025</h5>
+              <h2>THE VANISHING  (1988)</h2>
+              <p>Rex and Saskia are on holiday, a young couple in love. They stop at a busy service station and Saskia disappears. Rex dedicates the next three years trying to find her. Then he receives some postcards from her abductor, who promises to reveal what has happened to Saskia. The abductor, Raymond Lemorne, is a chilling character to whom Rex is drawn by his intense desire to learn the truth behind his lovers disappearance. The truth is more sinister than he dared imagine.</p>
+            <div class="pomjeraj">
+              <a href="review-the_vanishing.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+          
+          <div class="article">
+            <div class="carddiv1">
+              <img src="afterhours.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Aug 05, 2025</h5>
+              <h2>AFTER HOURS  (1985)</h2>
+              <p>Paul meets Marcy at a coffee shop after work, and gets her phone number. He calls her, she asks him to come over, and things take a turn for the bizarre. Paul spends the rest of the night trying to get home, dealing with angry cabbies, dead women (and their bartender husbands), clumsy catburglars, quirky sculptresses, unstable waitresses, condescending bouncers, and irate mobs led by ice cream truck drivers along the way.</p>
+            <div class="pomjeraj">
+              <a href="review-after_hours.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="article">
+            <div class="carddiv1">
+              <img src="thelighthouse.webp" height="200px">
+            </div>
+            <div class="carddiv">
+              <h5><img src="time.svg" width="16px" height="16px">Jun 15, 2025</h5>
+              <h2>THE LIGHTHOUSE  (2019)</h2>
+              <p>As the wavering cry of the foghorn fills the air, the taciturn former lumberjack, Ephraim Winslow, and the grizzled lighthouse keeper, Thomas Wake, set foot in a secluded and perpetually grey islet off the coast of late-19th-century New England. For the following four weeks of back-breaking work and unfavourable conditions, the tight-lipped men will have no one else for company except for each other, forced to endure irritating idiosyncrasies, bottled-up resentment, and burgeoning hatred. Then, amid bad omens, a furious and unending squall maroons the pale beacon's keepers in the already inhospitable volcanic rock, paving the way for a prolonged period of feral hunger, excruciating agony, manic isolation, and horrible booze-addled visions. Now, the eerie stranglehold of insanity tightens. Is there an escape from the wall-less prison of the mind?</p>
+            <div class="pomjeraj">
+              <a href="review-the_lighthouse.html">Citajte Review</a>
+            </div>
+            </div>
+          </div>
