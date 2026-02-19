@@ -9,7 +9,7 @@ let request = new XMLHttpRequest();
 
     for (let i in niz.filmovi) {
         gdiv[0].innerHTML = 
-        '<div class="article">';
+        '<div class="article">'
         gdiv[0].innerHTML += 
                     '<div class="carddiv1">'
         gdiv[0].innerHTML += 
