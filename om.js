@@ -8,7 +8,7 @@ let request = new XMLHttpRequest();
     console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
-        gdiv[0].innerHTML = 
+        gdiv[0].innerHTML += 
         '<div class="article">'
         gdiv[0].innerHTML += 
                     '<div class="carddiv1">'
