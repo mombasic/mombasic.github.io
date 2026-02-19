@@ -21,7 +21,7 @@ let request = new XMLHttpRequest();
         gdiv[0].innerHTML += 
                     '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>'
         gdiv[0].innerHTML += 
-                    '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].datumFilma + ')</h2>'
+                    '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>'
         gdiv[0].innerHTML += 
                     '<p>' + niz.filmovi[i].recenzija + '</p>'
         gdiv[0].innerHTML += 
