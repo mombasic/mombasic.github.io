@@ -17,6 +17,10 @@
     text-decoration: none;
   }
 
+  .row{
+    height: 100%;
+  }
+
   .glavnidiv{
     justify-content: center;
 
@@ -168,6 +172,7 @@
   .rightcolumn {
     float: left;
     width: 25%;
+    height: 100%;
     padding-left: 20px;
 
     align-items: center;
