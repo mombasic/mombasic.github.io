@@ -21,7 +21,7 @@
     height: 100%;
   }
 
-  .glavnidiv{
+  .fglavnidiv{
     justify-content: center;
 
     border-radius: 22px;
@@ -37,7 +37,7 @@
   }
 
   .glavnidivzaindividualnerecenzije{
-    position: flex;
+    display: flex;
     flex-direction: column;
 
     background-color: #7136D8;
@@ -123,8 +123,9 @@
   }
 
   .divicnekimali{
-    position: flex;
+    display: flex;
     flex-direction: column;
+    
 
     background-color: #7136D8;
     color: #C5CBF9;
@@ -139,7 +140,7 @@
   }
 
   .divjosmanji{
-    position: flex;
+    display: flex;
 
     background-color: #341CED;
     color: #FCC4EA;
@@ -336,7 +337,7 @@
     }
 
     .carddiv1 img{
-        width: 50vw;
+        width: 100%;
     }
 
     ul{

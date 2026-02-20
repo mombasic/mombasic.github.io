@@ -10,6 +10,10 @@ let request = new XMLHttpRequest();
     let tagovi = "";
     let imeSlike = "";
 
+    let brojF = 0;
+
+    localStorage.clear();
+
     console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
@@ -41,7 +45,7 @@ if (nizDatuma.length > 1)
                     tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
                     tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
                     tagovi += '<div class="pomjeraj">';
-                    tagovi += '<a id="fudo" href="review.html">Citajte Review</a>';
+                    tagovi += '<a class="fudo" href="review.html">Citajte Review</a>';
                     tagovi += '</div>';
                     tagovi += '</div>';
                     tagovi += '</div>';
@@ -49,16 +53,33 @@ if (nizDatuma.length > 1)
 
                     gdiv[0].innerHTML += tagovi;
 
-                    document.getElementById("fudo").addEventListener('click', function(){
+                    let nn = document.getElementsByClassName("fudo");
+
+                    console.log(brojF);
+
+                    nn[brojF].addEventListener("click", function(){
                         let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
                         imeFilma = imeFilma.toLowerCase();
                         localStorage.setItem("imeFilma", imeFilma);
                         
+                        console.log(localStorage.getItem("imeFilma"));
 
-                        console.log(imeFilma);
+                        
                     }); 
+                    brojF++;
                 }
         }
+        
+
+    //     for (let i = 0; i <= nn.length; i++) {
+    //         nn[i].addEventListener("click", function(){
+    //                     let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
+    //                     imeFilma = imeFilma.toLowerCase();
+    //                     localStorage.setItem("imeFilma", imeFilma);
+                        
+    //                     console.log(localStorage.getItem("imeFilma"));
+    //                 }); 
+    // }
     }
 
 else if (nizDatuma.length == 1) 
@@ -81,7 +102,7 @@ else if (nizDatuma.length == 1)
                     tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
                     tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
                     tagovi += '<div class="pomjeraj">';
-                    tagovi += '<a href="review.html">Citajte Review</a>';
+                    tagovi += '<a class="fudo" href="review.html">Citajte Review</a>';
                     tagovi += '</div>';
                     tagovi += '</div>';
                     tagovi += '</div>';
@@ -89,10 +110,18 @@ else if (nizDatuma.length == 1)
 
                     gdiv[0].innerHTML += tagovi;
 
-                    document.getElementById("fudo").addEventListener('click', function(){
+                    let nn = document.getElementsByClassName("fudo");
+
+                    console.log(brojF);
+
+                    nn[brojF].addEventListener("click", function(){
                         let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
                         imeFilma = imeFilma.toLowerCase();
                         localStorage.setItem("imeFilma", imeFilma);
+                        
+                        console.log(localStorage.getItem("imeFilma"));
+
+                        
                     }); 
                 }
         }
@@ -115,3 +144,5 @@ else
 
         gdiv[0].innerHTML += tagovi;
     }
+
+    

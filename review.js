@@ -15,19 +15,22 @@ let request = new XMLHttpRequest();
     for (let i in niz.filmovi) {
         tagovi = "";
 
-        if (niz.filmovi[i].nazivFilma == imeFilma){
+        let nazivporemecen = niz.filmovi[i].naziv.replaceAll(" ", "");
+        nazivporemecen = nazivporemecen.toLowerCase();
+
+        if (nazivporemecen == imeFilma){
             tagovi += '<div class="article">';
 
             console.log("odabran" + imeFilma);
 
-            tagovi += '<div class="carddiv1">';
+            tagovi += '<div class="carddiv1" style="width:60%">';
             imeSlike = niz.filmovi[i].naziv.replaceAll(" ", "");
             imeSlike = imeSlike.toLowerCase();
             console.log(imeSlike);
-            tagovi += '<img src="images\\' + imeSlike + '.webp"' + ' width="60%">';
+            tagovi += '<img src="images\\' + imeSlike + '.webp"' + ' width="90%" height="90%">';
             tagovi += '</div>';
 
-            tagovi += '<div class="divicnekimali">';
+            tagovi += '<div class="divicnekimali" style="width:60%">';
 
             tagovi += '<div class="divjosmanji">RECENZIJA</div>';
 

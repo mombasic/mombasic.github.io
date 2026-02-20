@@ -8,6 +8,10 @@ let request = new XMLHttpRequest();
     let tagovi = "";
     let imeSlike = "";
 
+    localStorage.clear();
+
+    let brojF = 0;
+
     console.log("molimTeBrzino");
 
     for (let i in niz.filmovi) {
@@ -25,7 +29,7 @@ let request = new XMLHttpRequest();
         tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
         tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
         tagovi += '<div class="pomjeraj">';
-        tagovi += '<a id="fudo" href="review.html">Citajte Review</a>';
+        tagovi += '<a class="fudo" href="review.html">Citajte Review</a>';
         tagovi += '</div>';
         tagovi += '</div>';
         tagovi += '</div>';
@@ -33,13 +37,24 @@ let request = new XMLHttpRequest();
 
         gdiv[0].innerHTML += tagovi;
 
-        document.getElementById("fudo").addEventListener('click', function(){
-                        let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
-                        imeFilma = imeFilma.toLowerCase();
-                        localStorage.setItem("imeFilma", imeFilma);
-
-                        console.log("event" + imeFilma);
-                    }); 
+        
 
         console.log("test" + i);
     }
+
+    let nn = document.getElementsByClassName("fudo");
+
+    for (let i = 0; i < nn.length; i++)
+        {
+        nn[i].addEventListener("click", function(){
+            let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
+            imeFilma = imeFilma.toLowerCase();
+            localStorage.setItem("imeFilma", imeFilma);
+                                
+            console.log(localStorage.getItem("imeFilma"));
+
+                                
+            }); 
+        }
+
+                    
