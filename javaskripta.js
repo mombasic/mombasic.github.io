@@ -53,6 +53,7 @@ if (nizDatuma.length > 1)
                         let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
                         imeFilma = imeFilma.toLowerCase();
                         localStorage.setItem("imeFilma", imeFilma);
+                        
 
                         console.log(imeFilma);
                     }); 
