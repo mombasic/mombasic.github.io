@@ -18,6 +18,8 @@ let request = new XMLHttpRequest();
         if (niz.filmovi[i].nazivFilma == imeFilma){
             tagovi += '<div class="article">';
 
+            console.log("odabran" + imeFilma);
+
             tagovi += '<div class="carddiv1">';
             imeSlike = niz.filmovi[i].naziv.replaceAll(" ", "");
             imeSlike = imeSlike.toLowerCase();
