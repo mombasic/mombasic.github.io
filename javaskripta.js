@@ -15,7 +15,7 @@ let request = new XMLHttpRequest();
     for (let i in niz.filmovi) {
         nizDatuma[i] = niz.filmovi[i].datumRecenzije;
 
-        console.log("kurac" + i);
+        console.log("test" + i);
     }
 
 if (nizDatuma.length > 1) 

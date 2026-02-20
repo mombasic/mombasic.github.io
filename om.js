@@ -33,5 +33,5 @@ let request = new XMLHttpRequest();
 
         gdiv[0].innerHTML += tagovi;
 
-        console.log("kurac" + i);
+        console.log("test" + i);
     }
