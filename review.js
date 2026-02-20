@@ -15,7 +15,7 @@ let request = new XMLHttpRequest();
     for (let i in niz.filmovi) {
         tagovi = "";
 
-        if (niz.filmovi[i].nazivFilma === imeFilma){
+        if (niz.filmovi[i].nazivFilma == imeFilma){
             tagovi += '<div class="article">';
 
             tagovi += '<div class="carddiv1">';
@@ -43,8 +43,11 @@ let request = new XMLHttpRequest();
 
             tagovi += '<div class="divicnekimali">';
             tagovi += '<div class="divjosmanji">FINALNA OCJENA</div>';
-            tagovi += '<img src="3-5stars.png"></img>';
-            tagovi += '<img src="yesLike.png"></img>';
+            tagovi += '<img src="' + niz.filmovi[i].rating + 'stars.png"></img>';
+
+            if (niz.filmovi[i].like) tagovi += '<img src="yesLike.png"></img>';
+            else tagovi += '<img src="noLike.png"></img>';
+
             tagovi += '</div>';
 
             tagovi += '</div>';
