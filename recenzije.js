@@ -25,7 +25,7 @@ let request = new XMLHttpRequest();
         tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
         tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
         tagovi += '<div class="pomjeraj">';
-        tagovi += '<a href="review.html">Citajte Review</a>';
+        tagovi += '<a href="review.html" id="fudo">Citajte Review</a>';
         tagovi += '</div>';
         tagovi += '</div>';
         tagovi += '</div>';
