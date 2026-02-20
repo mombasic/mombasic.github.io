@@ -10,7 +10,7 @@ let request = new XMLHttpRequest();
 
     let imeFilma = localStorage.getItem("imeFilma");
 
-    console.log("molimTeBrzino");
+    console.log(imeFilma);
 
     for (let i in niz.filmovi) {
         tagovi = "";
