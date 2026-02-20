@@ -50,8 +50,12 @@ let request = new XMLHttpRequest();
             tagovi += '<div class="divjosmanji">FINALNA OCJENA</div>';
             tagovi += '<img src="element_images/' + niz.filmovi[i].rating + 'stars.png"></img>';
 
+            tagovi += '<div class="lajkic">';
+
             if (niz.filmovi[i].like) tagovi += '<img src="element_images/yesLike.png"></img>';
             else tagovi += '<img src="element_images/noLike.png"></img>';
+
+            tagovi += '</div>';
 
             tagovi += '</div>';
 

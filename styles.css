@@ -19,6 +19,8 @@
 
   .row{
     height: 100%;
+
+    display: flex;
   }
 
   .fglavnidiv{
@@ -149,6 +151,8 @@
 
     border-radius: 22px;
 
+    padding: 4px;
+
     text-align: center;
   }
   
@@ -168,6 +172,7 @@
   .leftcolumn {
     float: left;
     width: 75%;
+    height: 100%;
   }
   
   .rightcolumn {
@@ -294,6 +299,10 @@
 
   .gumbicak:hover{
     transform: scale3d(3, 0.8, 1);
+  }
+
+  .lajkic:hover{
+    transform: translateY(-6px);
   }
 
   .omiljenifilmoviveliki {
