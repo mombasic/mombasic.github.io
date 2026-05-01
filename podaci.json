@@ -1,7 +1,7 @@
 {
   "filmovi": [
     {
-        "naziv": "After hours",
+        "naziv": "After Hours",
         "godinaFilma": 1985,
         "recenzija": "now this is exactly the kind of wacky dark  comedy i needed in my life right now. but this is really unlike any other scorsese movie i’ve seen, so off the wall.<br> at first i was thinking it was a little weird, but man the intertwining storyline swept me away. i felt myself slowly losing my mind with paul through the night.<br> hopelessly funny, and every line delivered is gold.<br> and the growing cast of characters all eventually wanting to kill him is just hilarious",
         "datumRecenzije": "2025-08-05",
@@ -28,11 +28,20 @@
         "like": false
     },
     {
-        "naziv": "One battle after another",
+        "naziv": "One Battle After Another",
         "godinaFilma": 2025,
         "recenzija": "Grips you from the first minute and refuses to let go. Whether you're struck with fear by the ever-relevant depictions of militarized violence, or you're laughing at the hundredth dadfailure Leo moment,<br> you're in for an absolutely unforgettable time at the movies. I seriously feel bad for every other film that comes out this year.",
         "datumRecenzije": "2025-10-02",
         "plot": "Bob (Leonardo DiCaprio) is a washed-up revolutionary who lives in a state of stoned paranoia, surviving off-grid with his spirited and self-reliant daughter, Willa (Chase Infiniti). When his evil nemesis resurfaces and Willa goes missing, the former radical scrambles to find her as both father and daughter battle the consequences of their pasts.",
+        "rating": 5,
+        "like": true
+    },
+    {
+        "naziv": "Poor Things",
+        "godinaFilma": 2023,
+        "recenzija": "absolutely movie of the year for me. unbelievably funny and thoughtful and gorgeous, i wanted to pause on every frame!<br> every character is rendered with such care and depth and without a hint of morality placed on their actions for the audience.",
+        "datumRecenzije": "2025-10-14",
+        "plot": "From filmmaker Yorgos Lanthimos and producer Emma Stone comes the incredible tale and fantastical evolution of Bella Baxter (Stone), a young woman crafted by the brilliant and unorthodox scientist Dr. Godwin Baxter (Willem Dafoe). Under Baxter's protection, Bella is eager to learn. Hungry for the worldliness she is lacking, Bella runs off with Duncan Wedderburn (Mark Ruffalo), a slick and debauched lawyer, on a whirlwind adventure across the continents. Free from the prejudices of her times, Bella experiences trials and a desire for equality.",
         "rating": 5,
         "like": true
     }

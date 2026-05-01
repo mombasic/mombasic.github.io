@@ -43,7 +43,7 @@ if (nizDatuma.length > 1)
                     tagovi += '<div class="carddiv">';
                     tagovi += '<h5><img src="element_images/time.svg" width="16px" height="16px">' + niz.filmovi[i].datumRecenzije + '</h5>';
                     tagovi += '<h2>' + niz.filmovi[i].naziv + '(' + niz.filmovi[i].godinaFilma.toString() + ')</h2>';
-                    tagovi +=  '<p>' + niz.filmovi[i].plot + '</p>';
+                    tagovi += '<p>' + niz.filmovi[i].plot + '</p>';
                     tagovi += '<div class="pomjeraj">';
                     tagovi += '<a class="fudo" href="review.html">Citajte Review</a>';
                     tagovi += '</div>';
@@ -53,21 +53,39 @@ if (nizDatuma.length > 1)
 
                     gdiv[0].innerHTML += tagovi;
 
-                    let nn = document.getElementsByClassName("fudo");
+                    //let nn = document.getElementsByClassName("fudo");
 
-                    console.log(brojF);
+                    //console.log(nn.length);
 
-                    nn[brojF].addEventListener("click", function(){
-                        let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
-                        imeFilma = imeFilma.toLowerCase();
-                        localStorage.setItem("imeFilma", imeFilma);
+                    //console.log(brojF);
+
+                    // nn[brojF].addEventListener("click", function(){
+                    //     let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
+                    //     imeFilma = imeFilma.toLowerCase();
+                    //     localStorage.setItem("imeFilma", imeFilma);
                         
-                        console.log(localStorage.getItem("imeFilma"));
+                    //     console.log(localStorage.getItem("imeFilma"));
 
-                        
-                    }); 
-                    brojF++;
+                    // });
+                    
+                    //brojF++;
                 }
+        }
+
+        let nn = document.getElementsByClassName("fudo");
+
+        for(let i in niz.filmovi){
+            if (niz.filmovi[i].datumRecenzije == rec1 || niz.filmovi[i].datumRecenzije == rec2) {
+                nn[brojF].addEventListener("click", function(){
+                    let imeFilma = niz.filmovi[i].naziv.replaceAll(" ", "");
+                    imeFilma = imeFilma.toLowerCase();
+                    localStorage.setItem("imeFilma", imeFilma);
+                    
+                    console.log(localStorage.getItem("imeFilma"));
+
+                });
+                brojF++;
+            }
         }
         
 
